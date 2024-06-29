@@ -103,7 +103,7 @@
                                 Cover Image
                             </th>
                             <td class="px-6 py-4 capitalize flex justify-center items-center">
-                                <img src="{{ asset('uploads/' . $lamps->cover_image) }}" class="h-96 w-96" alt="">
+                                <img src="{{ asset('public/uploads/' . $lamps->cover_image) }}" class="h-96 w-96" alt="">
                             </td>
                             <td></td>
                         </tr>
@@ -135,7 +135,7 @@
                                                 @csrf
                                                 @method('delete')
                                             </form>
-                                            <img src="{{ asset('uploads/' . $image->gallery_images) }}"
+                                            <img src="{{ asset('public/uploads/' . $image->gallery_images) }}"
                                                 class="w-full h-full object-cover" alt="">
                                         </div>
                                     @endforeach

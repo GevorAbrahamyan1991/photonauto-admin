@@ -38,7 +38,7 @@
                                 </th>
                                 
                                 <td class="px-6 py-4 flex justify-center">
-                                    <img src="{{ asset('uploads/'.$item->cover_image) }}" class="w-64 h-64" alt="">
+                                    <img src="{{ asset('public/uploads/'.$item->cover_image) }}" class="w-64 h-64" alt="">
                                 </td>
                                 <td class="px-6 py-4 text-right">
                                     <div class="flex justify-center items-center gap-8  h-full">
