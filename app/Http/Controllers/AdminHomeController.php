@@ -82,13 +82,13 @@ class AdminHomeController extends Controller
     public function createHomeDatas(Request $request)
     {
         $request->validate([
-            'tel' => 'required',
-            'email' => 'required',
-            'address_am' => 'required',
-            'address_ru' => 'required',
-            'address_en' => 'required',
-            'insta_link' => 'required',
-            'face_link' => 'required',
+            'tel' => '',
+            'email' => '',
+            'address_am' => '',
+            'address_ru' => '',
+            'address_en' => '',
+            'insta_link' => '',
+            'face_link' => '',
             'youtube_link' => '',
             'telegram_link' => '',
             'vk_link' => '',
